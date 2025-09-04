@@ -7,27 +7,60 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.min.css">
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <main>
+    <main class="main">
         <header>
-            <div class="header">
-                <a href="" class="logo"></a>
-                <nav>
-                    <a href="" class="nav-link">Главная</a>
-                    <a href="" class="nav-link">О нас</a>
-                    <a href="" class="nav-link">Преимущества</a>
-                    <a href="" class="nav-link">Наша команда</a>
-                    <a href="" class="nav-link">Тарифы</a>
-                    <a href="" class="nav-link">Контакты</a>
-                </nav>
-                <a href="" class="btn-accent">Регистрация</a>
+            <div class="container">
+                <div class="header">
+                    <a href="" class="logo"></a>
+                    <nav class="nav">
+                        <a href="" class="nav-link">Главная</a>
+                        <a href="" class="nav-link">О нас</a>
+                        <a href="" class="nav-link">Преимущества</a>
+                        <a href="" class="nav-link">Наша команда</a>
+                        <a href="" class="nav-link">Тарифы</a>
+                        <a href="" class="nav-link">Контакты</a>
+                    </nav>
+                    <a href="" class="btn-accent">Регистрация</a>
+                </div>  
             </div>
         </header>
 
-        <!--Контент для main-->
-
+        <section>
+            <div class="container">
+                <div class="hero">
+                    <div class="hero-text">
+                        <span class="badge">Чат-бот для бизнеса</span>
+                        <h1 class="title-h1">Установите AI бота на&nbsp;вашем сайте</h1>
+                        <p class="description description-hero">Вы устали отвечать каждому клиенту вручную или делать контент с нуля? Тогда вам точно нужен такой помощник!</p>
+                        <a href="" class="btn-accent">Регистрация</a>
+                        <div class="brands">
+                            <p class="text-small">Нам доверяют</p>
+                            <img src="images/brands/brand-1.svg" alt="Hiliment">
+                            <img src="images/brands/brand-2.svg" alt="Round">
+                            <img src="images/brands/brand-3.svg" alt="Midnew">
+                            <img src="images/brands/brand-4.svg" alt="Jackal">
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="images/robot.png" alt="Робот">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-screen">
+                <div class="screen">
+                    <span class="badge">Интерфейс Chitti</span>
+                    <h2 class="title-h2">Панель управления</h2>
+                    <p class="description description-dashboard">Наш движок AI позволяет пользователям настраивать различные параметры генерации изображений под Ваши задачи.</p>
+                </div>
+                <img src="images/screen.png" alt="Скришот панели управления">
+            </div>   
+        </section>
     </main>
 </body>
 </html>
