@@ -29,11 +29,12 @@ a {
     background-image: url(../images/bg-main.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 30px;
 }
 
 .container {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1630px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -46,11 +47,11 @@ a {
     align-items: center;
     width: 100%;
     max-width: 1600px;
-    padding: 15px 25px;
+    padding: 15px 17px 15px 25px;
     box-sizing: border-box;
     background-color: var(--light);
     border-radius: 16px;
-    margin: 0 auto;
+    margin: 0 auto 106px;
 }
 
 .logo {
@@ -73,7 +74,7 @@ a {
     display: flex;
     align-items: center;
     gap: 6px;
-    padding: 20px 18px;
+    padding: 16px 18px;
     font-family: var(--font-nunito);
     font-weight: 900;
     background: var(--gradient);
@@ -96,12 +97,13 @@ a {
     display: flex;
     align-items: center;
     gap: 6px;
-    padding: 13px 15px;
+    padding: 11px 15px;
     border: 1px solid var(--light);
     border-radius: 8px;
     font-family: var(--font-nunito);
     font-size: 12px;
     width: fit-content;
+    margin-bottom: 28px;
 }
 
 .badge::before {
@@ -119,6 +121,8 @@ a {
     font-size: 75px;
     font-weight: 700;
     line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 25px;
 }
 
 .title-h2 {
@@ -126,9 +130,13 @@ a {
     font-size: 48px;
     font-weight: 700;
     line-height: 1.25;
+    margin-top: 18px;
+    margin-bottom: 11px;
 }
 
 .description {
+    margin-top: 0;
+    margin-bottom: 34px;
     color: var(--light-gray);
     line-height: 1.6;
 }
@@ -141,6 +149,10 @@ a {
 }
 
 /* Hero */
+
+.section-hero {
+    margin-bottom: 100px;
+}
 
 .hero {
     display: flex;
@@ -156,8 +168,8 @@ a {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 100px;
-    gap: 30px 55px;
+    margin-top: 98px;
+    gap: 24px 54px;
 }
 
 .brands .text-small {
@@ -168,23 +180,31 @@ a {
 
 .container-screen {
     text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .screen {
     width: 100%;
-    max-width: 565px;
+    max-width: 564px;
     margin: 0 auto;
     text-align: center;
     margin-top: 105px;
-    margin-bottom: 60px;
+    margin-bottom: 52px;
 }
 
-.description-dashboard {
-    font-family: var(--font-nunito);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.6;
-    text-align: center;
-    color: var(--light-gray);
+.description-screen {
+    max-width: 564px;
+    margin: 0 auto;
 }
 
+.badge-center {
+    margin: 0 auto;
+}
+
+.image-screen {
+    width: 100%;
+    max-width: 1496px;
+    max-height: 830px;
+    margin: 0 auto;
+}
