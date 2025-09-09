@@ -99,7 +99,7 @@ a {
     display: flex;
     align-items: center;
     gap: 6px;
-    padding: 10px 15px;
+    padding: 10px 14px;
     border: 1px solid var(--light);
     border-radius: 8px;
     font-family: var(--font-nunito);
@@ -109,6 +109,9 @@ a {
 
 .light .badge {
     border-color: var(--line);
+    margin-top: 10px;
+    padding: 10px 23px;
+    gap: 26px;
 }
 
 .badge::before {
@@ -135,7 +138,7 @@ a {
 }
 
 .badge + .title-h2 {
-    margin-top: 22px;
+    margin-top: 19px;
 }
 
 .title-h2 {
@@ -149,6 +152,14 @@ a {
 
 .title-h2 + .description {
     margin-top: 10px;
+}
+
+.title-h4 {
+    font-family: var(--font-nunito);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 auto;
 }
 
 .description {
@@ -252,8 +263,9 @@ a {
 
 .advantages-item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 45px;
+    padding-top: 10px;
 }
 
 .advantages-list {
