@@ -226,6 +226,10 @@ a {
     justify-content: space-between;
 }
 
+.hero-text .btn-accent {
+    display: block;
+}
+
 .description-hero {
     max-width: 556px;
 }
@@ -331,6 +335,10 @@ a {
     flex-basis: 750px;
 }
 
+.app-text .btn-accent {
+    display: block;
+}
+
 .app-image {
     flex-basis: calc(100% - 607px - 4vw);
     position: relative;
@@ -394,11 +402,51 @@ a {
     margin-top: 18px;
 }
 
-.steps-items {
+.steps-item {
     border: 1px solid rgba(var(--gray-rgb), 0.4);
     border-radius: 16px;
     padding: 62px 45px 34px;
     box-sizing: border-box;
+    position: relative;
+}
+
+.steps-item:hover,
+.steps-item:hover .description {
+    color: var(--light);
+}
+
+.steps-item::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: var(--tr);
+}
+
+.steps-item:hover::before {
+    opacity: 1;
+}
+
+.steps-item:nth-child(1)::before {
+    background-image: url(../images/steps/steps-1.png);
+}
+
+.steps-item:nth-child(2)::before {
+    background-image: url(../images/steps/steps-2.png);
+}
+
+.steps-item:nth-child(3)::before {
+    background-image: url(../images/steps/steps-3.png);
+}
+
+.steps-item:nth-child(4)::before {
+    background-image: url(../images/steps/steps-4.png);
 }
 
 .description-steps {
@@ -406,9 +454,23 @@ a {
     margin-bottom: 40px;
 }
 
-
 .steps-line {
     width: 100%;
     height: 2px;
     background: rgba(var(--gray-rgb), 0.4);
+    position: relative;
+}
+
+.steps-line::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: var(--gradient);
+    position: absolute;
+    opacity: 0;
+    transition: var(--tr);
+}
+
+.steps-item:hover .steps-line::after {
+    opacity: 1;
 }
