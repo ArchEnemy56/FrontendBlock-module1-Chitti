@@ -1,0 +1,38 @@
+<svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.000000" height="40.000000" fill="none" customFrame="#000000">
+	<defs>
+		<clipPath id="clipPath_1">
+			<rect width="40.000000" height="40.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" />
+		</clipPath>
+	</defs>
+	<g id="flag">
+		<g id="Capa_1" clip-path="url(#clipPath_1)" customFrame="url(#clipPath_1)">
+			<rect id="Capa_1" width="40.000000" height="40.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+			<path id="Vector" d="M40 6.6665L0 6.6665L0 33.3335L40 33.3335L40 6.6665Z" fill="rgb(240,240,240)" fill-rule="evenodd" />
+			<path id="Vector" d="M22.5 6.6665L17.5 6.6665L17.5 17.4998L0 17.4998L0 22.4998L17.5 22.4998L17.5 33.3331L22.5 33.3331L22.5 22.4998L40 22.4998L40 17.4998L22.5 17.4998L22.5 6.6665Z" fill="rgb(216,0,39)" fill-rule="nonzero" />
+			<g id="Group">
+				<path id="Vector" d="M30.7646 24.6372L40.0002 29.7681L40.0002 24.6372L30.7646 24.6372Z" fill="rgb(0,82,180)" fill-rule="nonzero" />
+				<path id="Vector" d="M24.3477 24.6372L39.9998 33.3328L39.9998 30.8739L28.7738 24.6372L24.3477 24.6372Z" fill="rgb(0,82,180)" fill-rule="nonzero" />
+				<path id="Vector" d="M35.8306 33.3331L24.3477 26.9531L24.3477 33.3331L35.8306 33.3331Z" fill="rgb(0,82,180)" fill-rule="nonzero" />
+			</g>
+			<path id="Vector" d="M24.3477 24.6372L39.9998 33.3328L39.9998 30.8739L28.7738 24.6372L24.3477 24.6372Z" fill="rgb(240,240,240)" fill-rule="nonzero" />
+			<path id="Vector" d="M24.3477 24.6372L39.9998 33.3328L39.9998 30.8739L28.7738 24.6372L24.3477 24.6372Z" fill="rgb(216,0,39)" fill-rule="nonzero" />
+			<g id="Group">
+				<path id="Vector" d="M7.05789 24.6372L0 28.5583L0 24.6372L7.05789 24.6372Z" fill="rgb(0,82,180)" fill-rule="nonzero" />
+				<path id="Vector" d="M15.6519 25.7432L15.6519 33.3331L1.99121 33.3331L15.6519 25.7432Z" fill="rgb(0,82,180)" fill-rule="nonzero" />
+			</g>
+			<path id="Vector" d="M11.226 24.6372L0 30.8739L0 33.3328L15.6522 24.6372L11.226 24.6372Z" fill="rgb(216,0,39)" fill-rule="nonzero" />
+			<g id="Group">
+				<path id="Vector" d="M9.23555 15.3619L0 10.231L0 15.3619L9.23555 15.3619Z" fill="rgb(0,82,180)" fill-rule="nonzero" />
+				<path id="Vector" d="M15.6522 15.3621L0 6.6665L0 9.12541L11.226 15.3621L15.6522 15.3621Z" fill="rgb(0,82,180)" fill-rule="nonzero" />
+				<path id="Vector" d="M4.16895 6.6665L15.6519 13.0465L15.6519 6.6665L4.16895 6.6665Z" fill="rgb(0,82,180)" fill-rule="nonzero" />
+			</g>
+			<path id="Vector" d="M15.6522 15.3621L0 6.6665L0 9.12541L11.226 15.3621L15.6522 15.3621Z" fill="rgb(240,240,240)" fill-rule="nonzero" />
+			<path id="Vector" d="M15.6522 15.3621L0 6.6665L0 9.12541L11.226 15.3621L15.6522 15.3621Z" fill="rgb(216,0,39)" fill-rule="nonzero" />
+			<g id="Group">
+				<path id="Vector" d="M32.9424 15.362L40.0003 11.4409L40.0003 15.362L32.9424 15.362Z" fill="rgb(0,82,180)" fill-rule="nonzero" />
+				<path id="Vector" d="M24.3477 14.2564L24.3477 6.6665L38.0084 6.6665L24.3477 14.2564Z" fill="rgb(0,82,180)" fill-rule="nonzero" />
+			</g>
+			<path id="Vector" d="M28.7738 15.3621L39.9998 9.12541L39.9998 6.6665L24.3477 15.3621L28.7738 15.3621Z" fill="rgb(216,0,39)" fill-rule="nonzero" />
+		</g>
+	</g>
+</svg>
