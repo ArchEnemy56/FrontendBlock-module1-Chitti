@@ -67,6 +67,10 @@ a {
     z-index: 9999;
 }
 
+.header.scroll {
+    border: 1px solid rgba(var(--gray-rgb), 0.4);
+}
+
 .logo {
     display: block;
     width: 105px;
@@ -84,7 +88,7 @@ a {
 }
 
 .nav-link {
-position: relative;
+    position: relative;
 
 }
 
@@ -96,7 +100,7 @@ position: relative;
     content: '';
     width: 20px;
     height: 20px;
-    background: linear-gradient(180.00deg, rgba(10, 10, 10, 0.1),rgba(112, 112, 112, 0.1) 100%);
+    background: linear-gradient(180.00deg, rgba(10, 10, 10, 0.1), rgba(112, 112, 112, 0.1) 100%);
     position: absolute;
     left: 0;
     right: 0;
@@ -569,9 +573,11 @@ position: relative;
 }
 
 .info-item:nth-child(3) {
+    padding: 50px 40px 64px 40px;
 }
 
 .info-item:nth-child(4) {
+    padding: 50px 40px;
 
 }
 
@@ -619,10 +625,6 @@ position: relative;
     font-size: 14px;
 }
 
-.support {
-    padding: 55px 40px 62px 40px;
-}
-
 .support-item {
     display: flex;
     align-items: center;
@@ -634,4 +636,65 @@ position: relative;
 
 .support-item:not(:last-child) {
     margin-bottom: 18px;
+}
+
+.faq-list {
+    text-align: left;
+    margin-top: 24px;
+}
+
+.faq-details > .faq-summary:first-of-type {
+    list-style: none;
+}
+
+.faq-summary{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    background-color: var(--light);
+    border-radius: 10px;
+    padding: 15px 20px 15px 20px;
+    position: relative;
+}
+
+.faq-summary:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.faq-summary::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: var(--gradient);
+    border-radius: 15px;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 23px;
+}
+
+.faq-summary::after {
+    content: '';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/plus.svg);
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    background-position: center center;
+    border-radius: 15px;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 23px;
+}
+
+.faq-details[open] > .faq-summary::before {
+    background: var(--line);
+}
+
+.faq-details[open] > .faq-summary::after {
+    background-image: url(../images/minus.svg);
 }
