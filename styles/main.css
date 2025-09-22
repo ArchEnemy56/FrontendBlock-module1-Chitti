@@ -80,6 +80,15 @@ a {
     background-size: contain;
 }
 
+.footer-logo {
+display: block;
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/footer-logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .nav {
     display: flex;
     gap: 40px;
@@ -175,7 +184,7 @@ a {
 }
 .btn-line {
     display: block;
-    background: transparent;
+    background: #0f152c;
     border: 1px solid var(--gradient);
     margin: 0 auto;
 }
@@ -752,4 +761,35 @@ a {
 
 .footer {
     padding-top: 120px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.social-list {
+    display: flex;
+    gap: 14px;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-line {
+    border: 1px solid rgba(78, 78, 78, 0.5);
+    opacity: 0.4;
+    margin-top: 66px;
+    margin-bottom: 29px;
+}
+
+.footer-logo {
+    display: flex;
+    margin-right: 30px;
+}
+
+.flc {
+    display: flex;
 }
