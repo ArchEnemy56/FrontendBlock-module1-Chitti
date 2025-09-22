@@ -173,7 +173,24 @@ a {
     background-repeat: no-repeat;
     background-size: contain;
 }
+.btn-line {
+    display: block;
+    background: transparent;
+    border: 1px solid var(--gradient);
+    margin: 0 auto;
+}
 
+.btn-line::before {
+    content: '';
+    display: block;
+    background: var(--gradient);
+    position: absolute;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    inset: -1px;
+    border-radius: 10px;
+    z-index: -1;
+}
 .badge {
     display: flex;
     align-items: center;
@@ -697,4 +714,42 @@ a {
 
 .faq-details[open] > .faq-summary::after {
     background-image: url(../images/minus.svg);
+}
+
+.section-free {
+    background-image: url(../images/bg-free.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--light);
+}
+
+.free {
+    display: flex;
+    justify-content: end;
+    text-align: center;
+}
+
+.free-text {
+    padding-right: 110px;
+    padding-top: 135px;
+    padding-bottom: 135px;
+    position: relative;
+    z-index: 0;
+}
+
+.free-text .title-h2 {
+    max-width: 420px;
+    margin: 0 auto;
+    margin-bottom: 33px;
+}
+
+.free-text .description {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.footer {
+    padding-top: 120px;
 }
