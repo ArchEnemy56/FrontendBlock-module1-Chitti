@@ -106,8 +106,7 @@ a {
     position: relative;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover {
     color: var(--accent);
 }
 
@@ -220,6 +219,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    cursor: pointer;
 }
 
 .badge {
@@ -828,6 +828,68 @@ a {
     padding: 24px 0;
 }
 
+.modal {
+    background-color: #0f152c;
+    border-radius: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    width: 100%;
+    max-width: 736px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--tr);
+}
+
+.modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal .nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-image: url(../images/close.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.modal > .nav {
+    padding: 43px 122px;
+}
+
+.modal > .nav > .nav-link::after {
+    background: none;
+    content: none;
+}
+
+.modal > .nav > .nav-link::before {
+    background: none;
+    content: none;
+}
+
+.modal > .nav > .nav-link:hover {
+    color: var(--light);    
+    }
+
 @media (max-width: 1512px) {
     .container {
         max-width: 1140px;
@@ -1181,5 +1243,46 @@ a {
 
     .footer-top {
         padding-bottom: 35px;
+    }
+}
+
+@media (max-width: 650px) {
+    .title-h1{
+    font-size: clamp(33px, 9vw, 62px);
+    }
+
+    .title-h2 {
+        font-size: 26px;
+    }
+
+    .title-h3 {
+        font-size: 18px;
+    }
+
+    .title-h4 {
+        font-size: 16px;
+    }
+
+    .title-h5,
+    .copyright,
+    .description,
+    .app-item,
+    .btn-accent {
+        font-size: 14px;
+    }
+
+    .app-list {
+        max-width: 340px;
+        grid-template-columns: 174px 1fr;
+        gap: 10px;
+    }
+
+    .brands {
+        gap: 24px 3vw;
+    }
+
+    .brands img {
+        height: 4vw;
+        flex-basis: calc(25% - 6vw);
     }
 }
