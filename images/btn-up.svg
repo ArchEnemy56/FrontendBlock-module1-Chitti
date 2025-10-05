@@ -1,0 +1,36 @@
+<svg viewBox="0 0 34.5938 56.395" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.593750" height="56.395020" fill="none" customFrame="#000000">
+	<defs>
+		<clipPath id="clipPath_0">
+			<rect width="34.593689" height="34.594513" x="0.000000" y="21.800293" fill="rgb(255,255,255)" />
+		</clipPath>
+		<linearGradient id="paint_linear_0" x1="17.2973633" x2="34.5924683" y1="47.7467728" y2="47.7467728" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(255,50,63)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(255,55,228)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<linearGradient id="paint_linear_1" x1="17.2973633" x2="34.5924683" y1="30.4489212" y2="30.4489212" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(255,50,63)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(255,55,228)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<linearGradient id="paint_linear_2" x1="0" x2="17.2972565" y1="47.7467728" y2="47.7467728" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(255,50,63)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(255,55,228)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<linearGradient id="paint_linear_3" x1="0" x2="17.2972565" y1="30.4489212" y2="30.4489212" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(255,50,63)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(255,55,228)" offset="1" stop-opacity="1" />
+		</linearGradient>
+	</defs>
+	<rect id="Frame 1000001957" width="34.593689" height="56.394825" x="0.000000" y="0.000000" />
+	<g id="Group 1000001956">
+		<path id="path9429" d="M1.62317 0.000372323C1.30676 -0.0066565 0.996044 0.0859836 0.734217 0.265556C0.472391 0.445128 0.272465 0.702757 0.162237 1.00239C0.0520082 1.30203 0.0369538 1.62886 0.119166 1.93754C0.201378 2.24622 0.376772 2.52123 0.620963 2.72458L9.93822 10.7863L0.620963 18.8453C0.452044 18.9706 0.310578 19.1298 0.205425 19.313C0.100272 19.4962 0.0336974 19.6994 0.00986919 19.9097C-0.0139591 20.1201 0.00547312 20.3331 0.0669486 20.5355C0.128424 20.7379 0.230618 20.9254 0.367132 21.0861C0.503645 21.2468 0.671538 21.3771 0.860294 21.4692C1.04905 21.5614 1.2546 21.6131 1.46408 21.6213C1.67356 21.6294 1.88245 21.5939 2.07768 21.5168C2.2729 21.4396 2.45025 21.3226 2.59861 21.173L13.266 11.9547C13.4335 11.8104 13.5681 11.6311 13.6603 11.4292C13.7525 11.2272 13.8003 11.0073 13.8003 10.7849C13.8003 10.5625 13.7525 10.3426 13.6603 10.1407C13.5681 9.93869 13.4335 9.7593 13.266 9.61492L2.59861 0.387771C2.32914 0.146022 1.9835 0.00893712 1.62317 0.000372323Z" fill="rgb(78,78,78)" fill-rule="evenodd" transform="matrix(1.05124e-16,-1,1,1.03053e-16,6.4856,13.8003)" />
+	</g>
+	<g id="Group 1000001867">
+		<g id="Calque_1" clip-path="url(#clipPath_0)" customFrame="url(#clipPath_0)">
+			<rect id="Calque_1" width="34.593689" height="34.594513" x="0.000000" y="21.800293" />
+			<path id="Vector" d="M17.2974 39.0981C17.2974 48.6507 25.0399 56.3954 34.5925 56.3954C34.5925 46.8428 26.85 39.0981 17.2974 39.0981Z" fill="url(#paint_linear_0)" fill-rule="nonzero" />
+			<path id="Vector" d="M34.5925 21.8003C25.0399 21.8003 17.2974 29.5428 17.2974 39.0975C26.85 39.0975 34.5925 31.3551 34.5925 21.8003Z" fill="url(#paint_linear_1)" fill-rule="nonzero" />
+			<path id="Vector" d="M0 56.3954C9.5526 56.3954 17.2973 48.6507 17.2973 39.0981C7.7425 39.0981 0 46.8406 0 56.3954Z" fill="url(#paint_linear_2)" fill-rule="nonzero" />
+			<path id="Vector" d="M0 21.8003C0 31.3529 7.7425 39.0975 17.2973 39.0975C17.2973 29.5428 9.5526 21.8003 0 21.8003Z" fill="url(#paint_linear_3)" fill-rule="nonzero" />
+		</g>
+	</g>
+</svg>

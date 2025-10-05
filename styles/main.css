@@ -890,6 +890,35 @@ a {
     color: var(--light);
 }
 
+.btn-up {
+    display: block;
+    width: 35px;
+    height: 57px;
+    background-image: url(../images/btn-up.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--tr);
+}
+
+.btn-up.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.btn-up.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
 @media (max-width: 1512px) {
     .container {
         max-width: 1140px;
@@ -1020,7 +1049,10 @@ a {
 
     .nav,
     .hero-image,
-    .app-image {
+    .nav-link::before,
+    .nav-link::after,
+    .app-image,
+    .btn-up {
         display: none;
     }
 
@@ -1095,6 +1127,11 @@ a {
 
     .info-item:nth-child(4) {
         grid-row: 3 / 4;
+    }
+
+    .code-image {
+        max-width: 8vw;
+        right: 3vw;
     }
 
     .section-free {
@@ -1285,6 +1322,40 @@ a {
         height: 4vw;
         flex-basis: calc(25% - 6vw);
     }
+
+    .code-image {
+        display: none;
+    }
+
+    .info {
+        grid-template-rows: 80vw 55vw auto auto;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    .review-image {
+        bottom: 20px;
+        width: 95%;
+    }
+
+    .info-item:nth-child(4) {
+        padding: 30px 20px 10px 20px;
+    }
+
+    .support {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .support .title-h5 {
+        flex-basis: auto;
+    }
+
+    .support-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
 }
 
 @media (max-width: 360px) {
@@ -1342,7 +1413,8 @@ a {
         margin-bottom: 15px;
     }
 
-    .section-advantages.light {
+    .section-advantages.light,
+    .section-product.light {
         padding-top: 80px;
         padding-bottom: 80px;
     }
@@ -1388,7 +1460,8 @@ a {
         padding-left: 0;
     }
 
-    .steps {
+    .steps,
+    .info {
         gap: 10px;
     }
 
@@ -1399,11 +1472,6 @@ a {
     .steps-item {
         padding: 40px 30px 37px 25px;
         gap: 5px;
-    }
-
-    .section-product.light {
-        padding-top: 80px;
-        padding-bottom: 80px;
     }
 
     .light .badge {
@@ -1421,15 +1489,5 @@ a {
 
     .description.description-product {
         margin-bottom: 30px;
-    }
-
-    .info {
-        gap: 10px;
-    }
-
-    .review-image {
-        bottom: 20px;
-        padding-left: 50px;
-        padding-right: 50px;
     }
 }
