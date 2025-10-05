@@ -45,22 +45,22 @@ window.onscroll = function () { scrollFunction() };
 const upbuttons = document.getElementById("btnUp");
 
 for (const upbutton of upbuttons) {
-upbutton.addEventListener("click", clickHandler);
+    upbutton.addEventListener("click", clickHandler);
 }
 
 function clickHandler(e) {
-e.preventDefault();
-const href = this.getAttribute("href");
+    e.preventDefault();
+    const href = this.getAttribute("href");
 
-document.querySelector(href).scrollIntoView({
-behavior: "smooth"
-});
+    document.querySelector(href).scrollIntoView({
+        behavior: "smooth"
+    });
 }
 
 function scrollFunction() {
-if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-document.getElementById('btnUp').className = 'btn-up visible';
-} else {
-document.getElementById('btnUp').className = 'btn-up hidden';
-}
+    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        document.getElementById('btnUp').className = 'btn-up visible';
+    } else {
+        document.getElementById('btnUp').className = 'btn-up hidden';
+    }
 }
