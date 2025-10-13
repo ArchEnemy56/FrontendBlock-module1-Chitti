@@ -38,6 +38,13 @@ btnClose.addEventListener("click", function () {
     modal.classList.remove("active");
 });
 
+const navLinks = document.querySelectorAll(".nav-link");
+navLinks.forEach(link => {
+    link.addEventListener("click", function () {
+        modal.classList.remove("active");
+    });
+});
+
 // Button Up
 
 window.onscroll = function () { scrollFunction() };

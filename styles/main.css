@@ -886,6 +886,10 @@ a {
     content: none;
 }
 
+.modal>.nav>.nav-link {
+    color:var(--accent)
+}
+
 .modal>.nav>.nav-link:hover {
     color: var(--light);
 }
